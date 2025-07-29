@@ -149,7 +149,7 @@ const Index = () => {
               
               <div className="space-y-4">
                 {tracks.map((track) => (
-                  <Card key={track.id} className="animate-fade-in hover:shadow-lg transition-all duration-300">
+                  <Card key={track.id} className="neon-card animate-fade-in hover:neon-glow transition-all duration-300">
                     <CardHeader className="pb-3">
                       <div className="flex items-start justify-between">
                         <div className="flex-1">
@@ -268,7 +268,7 @@ const Index = () => {
           {/* Sidebar */}
           <div className="space-y-6">
             {/* User Stats */}
-            <Card>
+            <Card className="neon-card">
               <CardHeader>
                 <CardTitle className="flex items-center">
                   <Icon name="BarChart3" size={20} className="mr-2" />
@@ -298,7 +298,7 @@ const Index = () => {
             </Card>
 
             {/* Top Rated */}
-            <Card>
+            <Card className="neon-card">
               <CardHeader>
                 <CardTitle className="flex items-center">
                   <Icon name="Trophy" size={20} className="mr-2" />
@@ -329,7 +329,7 @@ const Index = () => {
             </Card>
 
             {/* Genres */}
-            <Card>
+            <Card className="neon-card">
               <CardHeader>
                 <CardTitle className="flex items-center">
                   <Icon name="Tag" size={20} className="mr-2" />
@@ -348,7 +348,7 @@ const Index = () => {
             </Card>
 
             {/* Activity Chart */}
-            <Card>
+            <Card className="neon-card">
               <CardHeader>
                 <CardTitle className="flex items-center">
                   <Icon name="Activity" size={20} className="mr-2" />
